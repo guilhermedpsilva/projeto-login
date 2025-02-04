@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+* { /* Configurações iniciais */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar { /* Removendo a scroll bar */
+    width: 0px;
+}
+
+body { /* A imagem de fundo do site */
+    background: url(img/fundo.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div#center-icon { /* O icone do boneco */
+    position: relative;
+    top: -60px;
+    background-color: rgb(17, 49, 17);
+    border-radius: 50%;
+    max-width: 100px;
+    margin: auto;
+}
+
+div#center-icon img { /* O tamanho da imagem do icone */
+    width: 100px;
+}
+
+section { /* Criando o estilo da section */
+    background: linear-gradient(to right,rgba(255, 255, 255, 0.541), rgba(128, 128, 128, 0.712));
+    max-width: 350px;
+    height: 250px;
+    margin: 165px auto;
+    padding: 10px;
+    border: solid 1px white;
+    border-radius: 15px;
+}
+
+div#email { /* As configurações da area gmail */
+    display: flex;
+    align-items: center;
+    margin-top: -45px;
+}
+
+div#email img { /* As configurações do tamanho do icone gmail */
+    position: relative;
+    top: 2px;
+    width: 36px;
+    height: 40px;
+    padding: 0px;
+}
+
+#iemail { /* As configurações do input email */
+    padding: 10px;
+    width: 280px;
+    height: 40px;
+    background-color: rgb(180, 176, 176);
+    border: none;
+}
+
+#iemail:hover { /* As configurações do input email quando alguem passar por cima*/
+    background-color: rgb(249, 252, 255);
+    border: none;
+}
+
+div#senha { /* As configurações da area senha */
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+div#senha img { /* As configurações do tamanho do icone senha */
+    position: relative;
+    top: 2px;
+    width: 36px;
+    height: 40px;
+    padding: 0px;
+}
+
+#isenha { /* As configurações do input senha */
+    padding: 10px;
+    width: 280px;
+    height: 40px;
+    background-color: rgb(180, 176, 176);
+    border: none;
+}
+
+#isenha:hover { /* As configurações do input senha quando passam por cima*/
+    background-color: rgb(249, 252, 255);
+    border: none;
+}
+
+section a { /* As configurações da ancora do section*/
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.61);
+    font-size: 10pt;
+    font-style: italic;
+}
+
+a:hover { /* As configurações da ancora quando passam por cima */
+    color: rgb(70, 70, 255);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:active { /* As configurações da ancora quando clicam */
+    color: rgb(28, 28, 168);
+}
+
+div#butao { /* As configurações da area butão */
+    text-align: center;
+    margin: 20px;
+}
+
+#ibutton { /* As configurações do butão */ 
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: rgb(17, 49, 17);
+    width: 280px;
+    padding: 12px;
+    margin: auto;
+}

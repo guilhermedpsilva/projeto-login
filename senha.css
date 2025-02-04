@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* { /* Configurações iniciais */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body { /* Background do site */
+    background: url(img/fundo-dois.jpg) no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a { /* Configurando a âncora */
+    position: relative;
+    top: 285px;
+    left: 350px;
+    text-decoration: none;
+    color: black;
+    display: inline-block; 
+    transition: transform 0.5s;
+    
+}
+
+a img { /* Tamanho da imagem da âncora */
+    width: 50px;
+}
+
+a:hover {
+    transform: translate(-3px, -3px);
+    border: solid 1px black;
+}
+
+
+section { /* Criando o estilo da area section */
+    background: linear-gradient(to right,rgba(255, 255, 255, 0.541), rgba(128, 128, 128, 0.712));
+    max-width: 350px;
+    height: 250px;
+    margin: 130px auto;
+    padding: 10px;
+    border: solid 1px white;
+    border-radius: 15px;
+}
